@@ -1,6 +1,6 @@
 {
   "strategy": "bootstrap_resample",
-  "warning": "Nu exista matching individual 1-la-1 intre dataset-uri; fuziunea este probabilistica.",
+  "warning": "Nu exista matching individual 1-la-1; fuziunea este probabilistica.",
   "n_profiles": 26163,
   "n_linked_rows": 26163,
   "personality_source": "huggingface",
