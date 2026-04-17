@@ -1,8 +1,14 @@
 {
-  "strategy": "bootstrap_resample",
-  "warning": "Nu exista matching individual 1-la-1; fuziunea este probabilistica.",
+  "strategy": "stratified_age_sex_no_fallback",
+  "age_tolerance": 5,
+  "warning": "Fara fallback random: randurile fara candidati raman nematch-uite (NaN pe coloanele IPIP).",
+  "match_strategies": {
+    "sex_age_stratified": 23097,
+    "age_stratified": 3066
+  },
   "n_profiles": 26163,
   "n_linked_rows": 26163,
+  "n_unmatched": 0,
   "personality_source": "huggingface",
   "hf_dataset": "ecorbari/IPIP120-SCORES"
 }
